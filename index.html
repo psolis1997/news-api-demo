@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark">
+
+    <!-- Search Container -->
+    <div class="container p-5 row form mt-3 mb-3">
+        <div class="form-group col-lg-4 col-md-12 mb-3">
+            <select id="countrySelect" class="form-select">
+                <option selected disabled>Choose Country</option>
+                <option value="gb">Great Britian</option>
+                <option value="ie">Ireland</option>
+                <option value="us">USA</option>
+                <option value="au">Australia</option>
+            </select>
+        </div>
+        <div class="form-group col-lg-4 col-md-12 mb-3">
+            <select id="topicSelect" class="form-select">
+                <option selected disabled>Choose Topic</option>
+                <option value="sports">Sports</option>
+                <option value="science">Science</option>
+                <option value="business">Business</option>
+                <option value="technology">Technology</option>
+            </select>
+        </div>
+        <div class="col-lg-4 col-md-12 d-flex justify-content-center mb-3">
+            <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="searchSubmit" class="btn-danger btn" type="submit">Search</button>
+        </div>
+    </div>
+
+
+    <!-- Search Container Ends -->
+
+    <div class="conatiner p-5">
+        <div id="results" class="row">
+
+        </div>
+    </div>
+
+
+
+    <!-- JQuery -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
