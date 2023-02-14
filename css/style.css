@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Sono&display=swap');
+
+html,
+body {
+    background: #D6DADD;
+}
+
+#countrySelect, #topicSelect, #languageSelect, #searchInput {
+    background-color: #FCF5F5;
+    border: solid 1px #588157;
+    font-family: 'Sono', sans-serif;
+    font-size: 15px;
+}
+
+#searchSubmit {
+    background-color: #E27D4B;
+    color: #FCF5F5;
+    font-family: 'Sono', sans-serif;
+    font-size: 15px;
+    border: solid 1px #588157;
+}
+
+.card {
+    background-color: #FCF5F5;
+    border: solid 2px #E27D4B;
+}
+
+h5 {
+    font-family: 'Sono', sans-serif;
+    font-size: 18px;
+}
+
+p, a {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 14px;
+}
